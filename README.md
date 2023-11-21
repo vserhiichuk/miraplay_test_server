@@ -36,3 +36,28 @@ npm start
 ```
 
 The server will start running on http://localhost:8080.
+
+
+<h2>API Endpoints</h2>
+The following endpoints are available in the API:
+
+<h3>POST User</h3>
+<p>Endpoint: PUST /api/users</p>>
+<p>Parameters:</p>
+
+    - email: The current page number for pagination.
+    - password: The maximum number of streamers per page.
+    
+<p>Response</p>
+
+    - token: User token.
+    
+<h3>Create a User</h3>
+<p>Endpoint: POST /api/auth</p>
+<p>Description: Create a new user.</p>
+<p>Request Body:</p>
+
+    - firstName: The  first name of the user.
+    - lastName: The last name of the user.
+    - email: The email of the user.
+    - password: The password of the user.
